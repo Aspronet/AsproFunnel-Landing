@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AsproFunnel - La infraestructura de crecimiento para network marketing",
-  description: "El sistema que convierte tu organización en una máquina de prospección. Funnels, publicidad y automatización con IA—llave en mano para miles de distribuidores.",
+  title: "AsproFunnel - La infraestructura de crecimiento para equipos de ventas",
+  description: "El sistema que convierte tu organización en una máquina de prospección. Funnels, publicidad y automatización con IA — llave en mano para cientos de representantes de ventas.",
 };
 
 export default function RootLayout({
