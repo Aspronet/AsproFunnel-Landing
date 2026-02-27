@@ -4,7 +4,7 @@ const sections = [
   {
     title: "1. Aceptación de los términos",
     paragraphs: [
-      'Estos Términos y Condiciones ("Términos") constituyen un acuerdo legal entre usted ("Cliente", "usted") y Aspronet Labs LLC, una empresa registrada en los Estados Unidos de América, operadora de la plataforma AsproFunnel ("nosotros", "la Empresa", "AsproFunnel"). Al acceder, registrarse o utilizar nuestros servicios, usted acepta quedar vinculado por estos Términos, así como por nuestra Política de Privacidad disponible en asprofunnel.com/privacy.',
+      'Estos Términos y Condiciones ("Términos") constituyen un acuerdo legal entre usted ("Cliente", "usted") y Nexfy LLC, una empresa registrada en los Estados Unidos de América, operadora de la plataforma AsproFunnel ("nosotros", "la Empresa", "AsproFunnel"). Al acceder, registrarse o utilizar nuestros servicios, usted acepta quedar vinculado por estos Términos, así como por nuestra Política de Privacidad disponible en asprofunnel.com/privacy.',
       "Si usted está aceptando estos Términos en nombre de una organización, declara que tiene la autoridad para vincular a dicha organización. Si no está de acuerdo con estos Términos, no utilice nuestros servicios.",
     ],
   },
@@ -61,7 +61,7 @@ const sections = [
   {
     title: "9. Propiedad intelectual",
     paragraphs: [
-      "AsproFunnel y todo su contenido, funcionalidades, tecnología y diseño son propiedad exclusiva de Aspronet Labs LLC y están protegidos por las leyes de propiedad intelectual aplicables.",
+      "AsproFunnel y todo su contenido, funcionalidades, tecnología y diseño son propiedad exclusiva de Nexfy LLC y están protegidos por las leyes de propiedad intelectual aplicables.",
       "El Cliente retiene la propiedad sobre su contenido, marca, productos y datos de clientes. Al utilizar nuestro servicio, el Cliente nos otorga una licencia limitada, no exclusiva y revocable para utilizar su contenido y marca exclusivamente con el propósito de proveer el servicio contratado.",
       "El Cliente no puede: copiar, modificar, distribuir o crear obras derivadas de la plataforma; realizar ingeniería inversa, descompilar o desensamblar cualquier parte del servicio; sublicenciar, revender o redistribuir el acceso a la plataforma sin autorización escrita; ni utilizar la marca, nombre o logotipos de AsproFunnel sin autorización previa.",
     ],
@@ -90,7 +90,7 @@ const sections = [
   {
     title: "13. Indemnización",
     paragraphs: [
-      "El Cliente acepta defender, indemnizar y mantener indemne a Aspronet Labs LLC, sus directores, empleados y agentes de cualquier reclamación, daño, pérdida, responsabilidad y gasto (incluyendo honorarios legales razonables) que surjan de: el uso del servicio por parte del Cliente; el incumplimiento de estos Términos por parte del Cliente; la violación de derechos de terceros por parte del Cliente; el contenido, productos o servicios del Cliente; y el incumplimiento de las políticas de Meta por parte del Cliente.",
+      "El Cliente acepta defender, indemnizar y mantener indemne a Nexfy LLC, sus directores, empleados y agentes de cualquier reclamación, daño, pérdida, responsabilidad y gasto (incluyendo honorarios legales razonables) que surjan de: el uso del servicio por parte del Cliente; el incumplimiento de estos Términos por parte del Cliente; la violación de derechos de terceros por parte del Cliente; el contenido, productos o servicios del Cliente; y el incumplimiento de las políticas de Meta por parte del Cliente.",
     ],
   },
   {
@@ -102,7 +102,7 @@ const sections = [
   {
     title: "15. Ley aplicable y jurisdicción",
     paragraphs: [
-      "Estos Términos se regirán e interpretarán de conformidad con las leyes de los Estados Unidos de América y del estado en que Aspronet Labs LLC esté registrada, sin dar efecto a los principios de conflicto de leyes. Cualquier disputa que surja en relación con estos Términos se resolverá mediante arbitraje vinculante administrado de conformidad con las reglas de la American Arbitration Association, antes de recurrir a tribunales judiciales.",
+      "Estos Términos se regirán e interpretarán de conformidad con las leyes de los Estados Unidos de América y del estado en que Nexfy LLC esté registrada, sin dar efecto a los principios de conflicto de leyes. Cualquier disputa que surja en relación con estos Términos se resolverá mediante arbitraje vinculante administrado de conformidad con las reglas de la American Arbitration Association, antes de recurrir a tribunales judiciales.",
     ],
   },
   {
@@ -116,7 +116,7 @@ const sections = [
     paragraphs: [
       "Para preguntas sobre estos Términos y Condiciones, contáctenos:",
     ],
-    contact: "Aspronet Labs LLC\nEmail: hello@asprofunnel.com\nSitio web: https://asprofunnel.com",
+    contact: "Nexfy LLC\nEmail: hello@asprofunnel.com\nSitio web: https://asprofunnel.com",
   },
 ];
 
@@ -176,7 +176,7 @@ export default function TermsPage() {
           <Link href="/privacy" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] sm:text-[13px]">Política de Privacidad</Link>
           <a href="mailto:hello@asprofunnel.com" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] sm:text-[13px]">Contacto</a>
         </div>
-        <span className="text-xs text-[var(--text-muted)] sm:text-[13px]">© 2026 AsproFunnel — A product of Aspronet Labs LLC</span>
+        <span className="text-xs text-[var(--text-muted)] sm:text-[13px]">© 2026 AsproFunnel — A product of Nexfy LLC</span>
       </footer>
     </div>
   );

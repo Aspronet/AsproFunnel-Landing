@@ -4,7 +4,7 @@ const sections = [
   {
     title: "1. Introducción",
     paragraphs: [
-      'AsproFunnel es un producto de Aspronet Labs LLC, una empresa registrada en los Estados Unidos de América ("nosotros", "nuestro", "la Empresa"). Esta Política de Privacidad describe cómo recopilamos, usamos, almacenamos y protegemos la información personal de los usuarios de nuestra plataforma, sitio web (asprofunnel.com) y servicios relacionados ("el Servicio").',
+      'AsproFunnel es un producto de Nexfy LLC, una empresa registrada en los Estados Unidos de América ("nosotros", "nuestro", "la Empresa"). Esta Política de Privacidad describe cómo recopilamos, usamos, almacenamos y protegemos la información personal de los usuarios de nuestra plataforma, sitio web (asprofunnel.com) y servicios relacionados ("el Servicio").',
       "Al utilizar nuestro Servicio, usted acepta las prácticas descritas en esta política. Si no está de acuerdo, le pedimos que no utilice nuestros servicios.",
     ],
   },
@@ -83,7 +83,7 @@ const sections = [
   {
     title: "12. Transferencias internacionales de datos",
     paragraphs: [
-      "Aspronet Labs LLC tiene sede en los Estados Unidos. Si usted se encuentra fuera de los Estados Unidos, su información puede ser transferida y procesada en los Estados Unidos u otros países donde operan nuestros proveedores de servicios. Al utilizar nuestro Servicio, usted consiente esta transferencia. Tomamos medidas para garantizar que sus datos estén protegidos conforme a estándares adecuados de privacidad.",
+      "Nexfy LLC tiene sede en los Estados Unidos. Si usted se encuentra fuera de los Estados Unidos, su información puede ser transferida y procesada en los Estados Unidos u otros países donde operan nuestros proveedores de servicios. Al utilizar nuestro Servicio, usted consiente esta transferencia. Tomamos medidas para garantizar que sus datos estén protegidos conforme a estándares adecuados de privacidad.",
     ],
   },
   {
@@ -103,7 +103,7 @@ const sections = [
     paragraphs: [
       "Si tiene preguntas o inquietudes sobre esta Política de Privacidad, contáctenos:",
     ],
-    contact: "Aspronet Labs LLC\nEmail: hello@asprofunnel.com\nSitio web: https://asprofunnel.com",
+    contact: "Nexfy LLC\nEmail: hello@asprofunnel.com\nSitio web: https://asprofunnel.com",
   },
 ];
 
@@ -163,7 +163,7 @@ export default function PrivacyPage() {
           <Link href="/privacy" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] sm:text-[13px]">Política de Privacidad</Link>
           <a href="mailto:hello@asprofunnel.com" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] sm:text-[13px]">Contacto</a>
         </div>
-        <span className="text-xs text-[var(--text-muted)] sm:text-[13px]">© 2026 AsproFunnel — A product of Aspronet Labs LLC</span>
+        <span className="text-xs text-[var(--text-muted)] sm:text-[13px]">© 2026 AsproFunnel — A product of Nexfy LLC</span>
       </footer>
     </div>
   );
