@@ -11,7 +11,7 @@ const sections = [
   {
     title: "2. Descripción del servicio",
     paragraphs: [
-      "AsproFunnel es una plataforma de tecnología que proporciona a equipos de ventas distribuidos herramientas de generación y gestión de leads, incluyendo: creación y gestión de funnels de conversión optimizados; campañas publicitarias centralizadas a través de Meta Ads; agentes de inteligencia artificial para calificación y seguimiento automatizado de leads vía WhatsApp; integración con WhatsApp Business API para comunicación con leads y prospectos; integración con calendarios para agendamiento automático de reuniones; y un panel de control (dashboard) con métricas en tiempo real.",
+      "AsproFunnel es una plataforma de tecnología que proporciona a equipos de ventas distribuidos herramientas de generación y gestión de leads, incluyendo: creación y gestión de funnels de conversión optimizados; campañas publicitarias centralizadas a través de Meta Ads; agentes de inteligencia artificial para calificación y seguimiento automatizado de leads vía WhatsApp; integración con WhatsApp Business API para comunicación con leads y prospectos; integración con Google Calendar mediante la API oficial de Google para sincronización de disponibilidad, creación automática de eventos de llamadas y gestión de citas; y un panel de control (dashboard) con métricas en tiempo real.",
       "El Servicio se provee en modalidad de software como servicio (SaaS) y requiere una implementación inicial personalizada.",
     ],
   },
@@ -29,6 +29,16 @@ const sections = [
       "AsproFunnel opera como proveedor de tecnología autorizado que facilita el acceso a la API de WhatsApp Business de Meta Platforms Inc. El uso de WhatsApp Business a través de nuestra plataforma está sujeto a los Términos de Servicio de WhatsApp Business, los Términos de la Solución de Negocios de WhatsApp, la Política de Mensajería de WhatsApp Business, y la Política de Comercio de WhatsApp.",
       "Usted se compromete a: cumplir con todas las políticas de Meta aplicables en todo momento; obtener el consentimiento (opt-in) de sus contactos antes de enviarles mensajes a través de la plataforma; respetar las solicitudes de opt-out de los usuarios de manera inmediata; no enviar mensajes que sean spam, engañosos, fraudulentos o que violen las políticas de Meta; no utilizar la plataforma para enviar contenido ilegal, amenazante, difamatorio, obsceno o que infrinja derechos de terceros; y mantener la calidad de sus mensajes conforme a los estándares de Meta.",
       "El incumplimiento de las políticas de Meta puede resultar en la suspensión o terminación de su cuenta de WhatsApp Business por parte de Meta, sin responsabilidad por parte de AsproFunnel.",
+    ],
+  },
+  {
+    title: "4.1. Google Calendar API y cumplimiento de políticas de Google",
+    paragraphs: [
+      "Al utilizar la funcionalidad de integración con Google Calendar a través de AsproFunnel, usted reconoce y acepta que:",
+      "AsproFunnel accede a su Google Calendar a través de la API oficial de Google, previa autorización explícita del usuario mediante OAuth 2.0. El uso de la API de Google Calendar está sujeto a los Términos de Servicio de Google (https://policies.google.com/terms) y a la Política de Datos de Usuario de los Servicios API de Google.",
+      "AsproFunnel cumple con los requisitos de Uso Limitado (Limited Use) de Google: los datos obtenidos de la API de Google Calendar se utilizan exclusivamente para proveer el servicio de agendamiento y no se transfieren a terceros salvo cuando sea necesario para la prestación del servicio, no se utilizan para publicidad ni para entrenar modelos de inteligencia artificial.",
+      "Usted puede revocar el acceso de AsproFunnel a su Google Calendar en cualquier momento desde https://myaccount.google.com/permissions.",
+      "AsproFunnel no es responsable por cambios, restricciones o interrupciones en la API de Google Calendar que afecten la funcionalidad de agendamiento.",
     ],
   },
   {
@@ -126,7 +136,7 @@ export default function TermsPage() {
       {/* Navbar */}
       <nav className="flex w-full items-center justify-between px-4 py-4 bg-[var(--bg-white)] sm:px-8 lg:px-20">
         <Link href="/" className="flex items-center gap-2">
-          <img src="/logo-asprofunnel.svg" alt="AsproFunnel" className="h-8 w-auto" />
+          <img src="/asprofunnellogo.png" alt="AsproFunnel" className="h-8 w-auto" />
         </Link>
         <div className="hidden items-center gap-8 lg:flex">
           <Link href="/#producto" className="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)]">Producto</Link>
@@ -142,7 +152,7 @@ export default function TermsPage() {
         <div className="relative z-10 flex h-full flex-col items-center justify-center gap-4 px-4">
           <span className="text-sm font-medium tracking-[1.5px] text-[var(--text-secondary)]">Legal</span>
           <h1 className="text-center text-[32px] font-bold tracking-[-1px] text-[var(--text-primary)] sm:text-[42px] lg:text-[52px] lg:tracking-[-1.5px]">Términos y Condiciones</h1>
-          <p className="text-base text-[var(--text-secondary)]">Última actualización: 1 de febrero de 2026</p>
+          <p className="text-base text-[var(--text-secondary)]">Última actualización: 19 de marzo de 2026</p>
         </div>
       </section>
 
@@ -169,7 +179,7 @@ export default function TermsPage() {
       {/* Footer */}
       <footer className="flex w-full flex-col items-center gap-6 border-t border-[var(--border-light)] bg-[var(--bg-light)] px-4 py-8 sm:px-8 lg:flex-row lg:justify-between lg:px-20 lg:py-10">
         <Link href="/" className="flex items-center gap-2">
-          <img src="/logo-asprofunnel.svg" alt="AsproFunnel" className="h-6 w-auto opacity-50" />
+          <img src="/asprofunnellogo.png" alt="AsproFunnel" className="h-6 w-auto opacity-50" />
         </Link>
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
           <Link href="/terms" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] sm:text-[13px]">Términos y Condiciones</Link>

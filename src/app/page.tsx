@@ -4,6 +4,7 @@ import { useState } from "react";
 import BlurText from "@/components/BlurText";
 import GradientText from "@/components/GradientText";
 import RotatingText from "@/components/RotatingText";
+import LeadForm from "@/components/LeadForm";
 
 /* ───────── Data ───────── */
 
@@ -106,7 +107,7 @@ export default function Home() {
       {/* ─── Navbar ─── */}
       <nav className="relative flex w-full items-center justify-between px-4 py-4 bg-[var(--bg-white)] sm:px-8 lg:px-20">
         <div className="flex items-center gap-2">
-          <img src="/logo-asprofunnel.svg" alt="AsproFunnel" className="h-8 w-auto" />
+          <img src="/asprofunnellogo.png" alt="AsproFunnel" className="h-8 w-auto" />
         </div>
         <div className="hidden items-center gap-8 lg:flex">
           <a href="#producto" className="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)]">Producto</a>
@@ -412,14 +413,14 @@ export default function Home() {
         <p className="max-w-[540px] text-center text-base leading-[1.6] text-[var(--text-secondary)] sm:text-[17px]">
           Analizamos tu equipo de ventas, tu mercado y te mostramos exactamente cómo funcionaría AsproFunnel para ti.
         </p>
-        <a href="#" className="w-full rounded-[10px] bg-[var(--bg-white)] px-9 py-4 text-center text-base font-medium text-[var(--text-primary)] sm:w-auto">Agendar Discovery Call →</a>
+        <LeadForm />
         <p className="text-center text-xs text-[var(--cta-text)] sm:text-[13px]">Sin compromiso. Solo una conversación estratégica con nuestro equipo.</p>
       </section>
 
       {/* ─── Footer ─── */}
       <footer className="flex w-full flex-col items-center gap-6 border-t border-[var(--border-light)] bg-[var(--bg-light)] px-4 py-8 sm:px-8 lg:flex-row lg:justify-between lg:px-20 lg:py-10">
         <div className="flex items-center gap-2">
-          <img src="/logo-asprofunnel.svg" alt="AsproFunnel" className="h-6 w-auto opacity-50" />
+          <img src="/asprofunnellogo.png" alt="AsproFunnel" className="h-6 w-auto opacity-50" />
         </div>
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
           <a href="/terms" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] sm:text-[13px]">Términos y Condiciones</a>

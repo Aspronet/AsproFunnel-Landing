@@ -15,12 +15,13 @@ const sections = [
       "Información proporcionada directamente por usted: nombre completo, dirección de correo electrónico, número de teléfono (incluyendo número de WhatsApp), nombre de empresa o actividad comercial, país y zona horaria, e información de pago cuando aplique.",
       "Información recopilada automáticamente: dirección IP, tipo de navegador y dispositivo, páginas visitadas y tiempo de permanencia, datos de interacción con nuestros mensajes y enlaces (incluyendo clics y aperturas), e información de cookies y tecnologías similares.",
       "Información de terceros: cuando usted conecta su cuenta de WhatsApp Business a través de nuestro servicio, recibimos datos proporcionados por Meta Platforms Inc. conforme a sus APIs, incluyendo su WhatsApp Business Account ID, número de teléfono registrado, nombre de perfil de WhatsApp Business y métricas de mensajería. Esta información se recibe y procesa conforme a los términos de uso de la API de WhatsApp Business de Meta.",
+      "Información de Google Calendar: Cuando usted conecta su cuenta de Google Calendar a través de nuestra plataforma, accedemos a datos de su calendario incluyendo: eventos existentes (fecha, hora, título, participantes), disponibilidad horaria, y zona horaria configurada. Esta información se obtiene mediante la API de Google Calendar con su autorización explícita a través del protocolo OAuth 2.0. Usted puede revocar este acceso en cualquier momento desde la configuración de su cuenta de Google (https://myaccount.google.com/permissions).",
     ],
   },
   {
     title: "3. Cómo usamos su información",
     paragraphs: [
-      "Utilizamos la información recopilada para: proveer, operar y mantener nuestros servicios de gestión de leads y automatización; enviar y recibir mensajes a través de la API de WhatsApp Business en nombre de nuestros clientes; optimizar campañas publicitarias y segmentación de audiencias; procesar pagos y administrar cuentas; enviar comunicaciones relacionadas con el servicio, incluyendo notificaciones operativas y actualizaciones; analizar el uso de la plataforma para mejorar nuestros servicios; cumplir con obligaciones legales y regulatorias; y prevenir fraude y actividades no autorizadas.",
+      "Utilizamos la información recopilada para: proveer, operar y mantener nuestros servicios de gestión de leads y automatización; enviar y recibir mensajes a través de la API de WhatsApp Business en nombre de nuestros clientes; optimizar campañas publicitarias y segmentación de audiencias; procesar pagos y administrar cuentas; enviar comunicaciones relacionadas con el servicio, incluyendo notificaciones operativas y actualizaciones; analizar el uso de la plataforma para mejorar nuestros servicios; consultar la disponibilidad del calendario del usuario para ofrecer horarios disponibles a los leads que desean agendar una llamada; crear eventos de llamadas de calificación y llamadas de venta en el calendario del usuario cuando un lead agenda una cita; modificar o cancelar eventos cuando una cita es reagendada o cancelada; sincronizar la disponibilidad en tiempo real para evitar conflictos de horario; cumplir con obligaciones legales y regulatorias; y prevenir fraude y actividades no autorizadas.",
     ],
   },
   {
@@ -29,6 +30,14 @@ const sections = [
       "AsproFunnel opera como proveedor de tecnología utilizando la API de WhatsApp Business de Meta Platforms Inc. En este contexto:",
       "Actuamos como procesadores de datos en nombre de nuestros clientes (los representantes de ventas que utilizan nuestra plataforma). Los mensajes enviados y recibidos a través de WhatsApp están sujetos a las políticas de Meta, incluyendo la Política de Mensajería de WhatsApp Business y la Política de Comercio de WhatsApp. No vendemos, compartimos ni utilizamos el contenido de los mensajes de WhatsApp para fines distintos a la prestación del servicio contratado. Los datos de WhatsApp Business se almacenan de forma segura y se retienen únicamente durante el tiempo necesario para la prestación del servicio.",
       "Para más información sobre cómo Meta maneja los datos, consulte la Política de Privacidad de Meta en https://www.facebook.com/privacy/policy/",
+    ],
+  },
+  {
+    title: "4.1. Google Calendar API y Google",
+    paragraphs: [
+      "AsproFunnel utiliza la API de Google Calendar para integrar el calendario de los usuarios con el sistema de agendamiento de la plataforma. En este contexto:",
+      "El acceso al calendario se solicita únicamente con el consentimiento explícito del usuario mediante el flujo de autorización OAuth 2.0 de Google. Solo accedemos a los datos de calendario estrictamente necesarios para la prestación del servicio: eventos, disponibilidad y zona horaria. No leemos, almacenamos ni procesamos el contenido de eventos que no estén relacionados con el servicio de AsproFunnel. No vendemos, compartimos ni utilizamos los datos de Google Calendar para fines de publicidad, marketing ni entrenamiento de modelos de inteligencia artificial. El usuario puede revocar el acceso en cualquier momento desde su cuenta de Google (https://myaccount.google.com/permissions) o desde la configuración de su cuenta en AsproFunnel. El uso de datos recibidos de las APIs de Google cumple con la Política de Datos de Usuario de los Servicios API de Google, incluyendo los requisitos de Uso Limitado (Limited Use).",
+      "Para más información sobre cómo Google maneja los datos, consulte la Política de Privacidad de Google en https://policies.google.com/privacy",
     ],
   },
   {
@@ -50,7 +59,7 @@ const sections = [
   {
     title: "7. Compartir información con terceros",
     paragraphs: [
-      "No vendemos información personal. Podemos compartir información con: proveedores de servicios que nos ayudan a operar la plataforma (hosting, procesamiento de pagos, análisis), incluyendo pero no limitado a servicios de infraestructura en la nube, procesadores de pago y herramientas de análisis; Meta Platforms Inc. según lo requerido para el funcionamiento de la API de WhatsApp Business; autoridades legales cuando sea requerido por ley, orden judicial o proceso legal; y en caso de fusión, adquisición o venta de activos, donde la información podría transferirse al nuevo propietario.",
+      "No vendemos información personal. Podemos compartir información con: proveedores de servicios que nos ayudan a operar la plataforma (hosting, procesamiento de pagos, análisis), incluyendo pero no limitado a servicios de infraestructura en la nube, procesadores de pago y herramientas de análisis; Meta Platforms Inc. según lo requerido para el funcionamiento de la API de WhatsApp Business; Google LLC, según lo requerido para el funcionamiento de la API de Google Calendar (sincronización de eventos y disponibilidad); autoridades legales cuando sea requerido por ley, orden judicial o proceso legal; y en caso de fusión, adquisición o venta de activos, donde la información podría transferirse al nuevo propietario.",
       "Todos nuestros proveedores de servicios están obligados contractualmente a proteger su información y utilizarla únicamente para los fines especificados.",
     ],
   },
@@ -64,6 +73,7 @@ const sections = [
     title: "9. Retención de datos",
     paragraphs: [
       "Retenemos su información personal mientras su cuenta esté activa o según sea necesario para proveer nuestros servicios. Información de cuenta y perfil: mientras la cuenta esté activa y hasta 12 meses después de su cancelación. Datos de mensajería: hasta 90 días después del envío, salvo requerimiento legal. Datos de facturación: según lo requerido por las leyes fiscales aplicables (generalmente 5 a 7 años). Datos analíticos: de forma agregada y anonimizada, sin límite de tiempo.",
+      "Datos de Google Calendar: Los datos de eventos y disponibilidad se consultan en tiempo real y no se almacenan de forma persistente más allá de lo necesario para mostrar la disponibilidad al momento de agendar. Los tokens de acceso se retienen mientras la integración esté activa y se eliminan cuando el usuario desconecta su cuenta de Google.",
       "Usted puede solicitar la eliminación de sus datos en cualquier momento contactándonos a hello@asprofunnel.com",
     ],
   },
@@ -113,7 +123,7 @@ export default function PrivacyPage() {
       {/* Navbar */}
       <nav className="flex w-full items-center justify-between px-4 py-4 bg-[var(--bg-white)] sm:px-8 lg:px-20">
         <Link href="/" className="flex items-center gap-2">
-          <img src="/logo-asprofunnel.svg" alt="AsproFunnel" className="h-8 w-auto" />
+          <img src="/asprofunnellogo.png" alt="AsproFunnel" className="h-8 w-auto" />
         </Link>
         <div className="hidden items-center gap-8 lg:flex">
           <Link href="/#producto" className="text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)]">Producto</Link>
@@ -129,7 +139,7 @@ export default function PrivacyPage() {
         <div className="relative z-10 flex h-full flex-col items-center justify-center gap-4 px-4">
           <span className="text-sm font-medium tracking-[1.5px] text-[var(--text-secondary)]">Legal</span>
           <h1 className="text-center text-[32px] font-bold tracking-[-1px] text-[var(--text-primary)] sm:text-[42px] lg:text-[52px] lg:tracking-[-1.5px]">Política de Privacidad</h1>
-          <p className="text-base text-[var(--text-secondary)]">Última actualización: 1 de febrero de 2026</p>
+          <p className="text-base text-[var(--text-secondary)]">Última actualización: 19 de marzo de 2026</p>
         </div>
       </section>
 
@@ -156,7 +166,7 @@ export default function PrivacyPage() {
       {/* Footer */}
       <footer className="flex w-full flex-col items-center gap-6 border-t border-[var(--border-light)] bg-[var(--bg-light)] px-4 py-8 sm:px-8 lg:flex-row lg:justify-between lg:px-20 lg:py-10">
         <Link href="/" className="flex items-center gap-2">
-          <img src="/logo-asprofunnel.svg" alt="AsproFunnel" className="h-6 w-auto opacity-50" />
+          <img src="/asprofunnellogo.png" alt="AsproFunnel" className="h-6 w-auto opacity-50" />
         </Link>
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
           <Link href="/terms" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] sm:text-[13px]">Términos y Condiciones</Link>
